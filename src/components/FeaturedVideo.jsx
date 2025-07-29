@@ -17,7 +17,7 @@ const FeaturedVideo = ({ movie, showVideo }) => {
             ) : (
                 <img
                     className="absolute w-full h-full object-cover object-center"
-                    src={`/src/assets/${movie.CoverImage}`}
+                    src={`/${movie.CoverImage}`}
                     alt={movie.Title}
                 />
             )}
@@ -30,7 +30,7 @@ const FeaturedVideo = ({ movie, showVideo }) => {
                 {movie.TitleImage ? (
                     <img
                         className="w-[500px] mb-4"
-                        src={`/src/assets/${movie.TitleImage}`}
+                        src={`/${movie.TitleImage}`}
                         alt={movie.Title}
                     />
                 ) : (

@@ -55,7 +55,7 @@
                                     onClick={() => onClick(movie)}
                                 >
                                     <img
-                                        src={`/src/assets/${movie.CoverImage}`}
+                                        src={`/${movie.CoverImage}`}
                                         alt={movie.Title}
                                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                                         draggable={false}

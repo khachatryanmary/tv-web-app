@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-import SearchIcon from '../assets/icons/ICON - Search.png';
-import HomeIcon from '../assets/icons/Group 46.png';
-import TvIcon from '../assets/icons/Group 56.png';
-import MoviesIcon from '../assets/icons/Group 54.png';
-import GenresIcon from '../assets/icons/Group 53.png';
-import WatchLaterIcon from '../assets/icons/Group 47.png';
-import UserAvatar from '../assets/avatar.jpg';
+import SearchIcon from '../../public/icons/ICON - Search.png';
+import HomeIcon from '../../public/icons/Group 46.png';
+import TvIcon from '../../public/icons/Group 56.png';
+import MoviesIcon from '../../public/icons/Group 54.png';
+import GenresIcon from '../../public/icons/Group 53.png';
+import WatchLaterIcon from '../../public/icons/Group 47.png';
+import UserAvatar from '../../public/avatar.jpg';
 
 const menuIcons = [
     { icon: SearchIcon, label: 'Search' },
